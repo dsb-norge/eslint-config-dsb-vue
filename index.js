@@ -3,12 +3,11 @@ module.exports = {
   env: {
     node: true,
     browser: true,
-    es2021: true
+    es2020: true
   },
   extends: [
-    'eslint:recommended',
-    'plugin:vue/vue3-recommended',
-    '@vue/typescript/recommended'
+    'plugin:vue/recommended',
+    'standard'
   ],
   plugins: [
     'vue'
@@ -31,9 +30,12 @@ module.exports = {
     'vue/space-infix-ops': 'error',
     'vue/space-unary-ops': 'error',
     'vue/v-on-function-call': 'error',
-    'vue/no-empty-component-block': 'error'
+    'vue/no-empty-component-block': 'error',
+    'vue/multi-word-component-names': 'off'
   },
   parserOptions: {
+    requireConfigFile: false,
+    parser: '@babel/eslint-parser',
     sourceType: 'module'
   }
 }
