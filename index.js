@@ -7,10 +7,12 @@ module.exports = {
   },
   extends: [
     'plugin:vue/recommended',
-    'standard'
+    'standard',
+    'plugin:vuejs-accessibility/recommended'
   ],
   plugins: [
-    'vue'
+    'vue',
+    'vuejs-accessibility'
   ],
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? ['error', { allow: ['error'] }] : 'warn',
