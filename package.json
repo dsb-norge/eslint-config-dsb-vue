@@ -31,23 +31,23 @@
   },
   "homepage": "https://github.com/dsb-norge/eslint-config-dsb-vue",
   "peerDependencies": {
-    "@babel/eslint-parser": ">=7.19.1 <8",
-    "eslint": ">=8.32.0 <9",
-    "eslint-config-standard": ">=17.0.0 <18",
+    "@babel/eslint-parser": ">=7.22.5 <8",
+    "eslint": ">=8.44.0 <9",
+    "eslint-config-standard": ">=17.1.0 <18",
     "eslint-plugin-import": ">=2.27.5 <3",
-    "eslint-plugin-n": ">=15.6.1 <16",
+    "eslint-plugin-n": ">=16.0.1 <17",
     "eslint-plugin-promise": ">=6.1.1 <7",
-    "eslint-plugin-vue": ">=9.9.0 < 10",
+    "eslint-plugin-vue": ">=9.15.1 < 10",
     "eslint-plugin-vuejs-accessibility": ">=2.1.0 < 3"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "7.19.1",
-    "eslint": "^8.32.0",
-    "eslint-config-standard": "^17.0.0",
+    "@babel/eslint-parser": "7.22.5",
+    "eslint": "^8.44.0",
+    "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-n": "^16.0.1",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-vue": "^9.9.0",
+    "eslint-plugin-vue": "^9.15.1",
     "eslint-plugin-vuejs-accessibility": "^2.1.0"
   }
 }
